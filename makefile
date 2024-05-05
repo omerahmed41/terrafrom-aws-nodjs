@@ -15,3 +15,6 @@ terrafrom_apply:
 
 terraform:
 	terraform plan -var-file="staging.tfvars"
+
+lsof:
+	lsof -i :3000
