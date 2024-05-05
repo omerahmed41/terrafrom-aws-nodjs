@@ -1,0 +1,9 @@
+# docker-compose.yml
+version: '3'
+services:
+  energy-app:
+    image: energy-app_js:latest
+    platform: linux/amd64
+    build: .
+    ports:
+      - "3000:3000"
