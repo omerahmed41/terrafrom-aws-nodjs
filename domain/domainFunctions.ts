@@ -3,6 +3,6 @@ export class DomainFunctions {
     return 'My Energy APP!';
   }
   public getHelloMessageHTML(): string {
-    return 'HTML Energy APP!';
+    return 'HTML Energy APP';
   }
 }
