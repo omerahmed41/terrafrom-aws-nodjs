@@ -1,7 +1,7 @@
 /node_modules/
 /.idea/
-/aws/.terraform/
-/aws/.terraform.lock.hcl
-/aws/terraform.tfstate
-/aws/terraform.tfstate.backup
+/aws_terraform/.terraform/
+/aws_terraform/.terraform.lock.hcl
+/aws_terraform/terraform.tfstate
+/aws_terraform/terraform.tfstate.backup
 /package-lock.json
