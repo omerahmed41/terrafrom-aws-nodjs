@@ -1,8 +1,8 @@
 ## Todo:
+- use .env file
 - use eks
 - CI/CD Pipeline
 - Stage/Prod env
-- use .env file
 
 ## Technologies & TechStack
 - Express Node.js
