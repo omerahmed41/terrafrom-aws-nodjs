@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: energy-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: energy-app
+  template:
+    metadata:
+      labels:
+        app: energy-app
+    spec:
+      containers:
+        - name: energy-app
+          image: omerahmed41/energy-app:latest
+          ports:
+            - containerPort: 3000

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: energy-app-service
+spec:
+  selector:
+    app: energy-app
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
+  type: LoadBalancer
