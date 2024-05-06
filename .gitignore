@@ -5,3 +5,4 @@
 /aws_terraform/terraform.tfstate
 /aws_terraform/terraform.tfstate.backup
 /package-lock.json
+/k8s/.terraform/

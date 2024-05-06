@@ -1,5 +1,5 @@
 ## Todo:
-- use eks
+- Casandra
 - CI/CD Pipeline
 - Stage/Prod env
 
@@ -8,7 +8,7 @@
 - TypeScript
 - Docker 
 - Docker-compose
-- K8S
+- K8S- Kubectl
 - AWS (EC2, S3, EKS, VPC, Load Balancers, Route 53, DNS and A record)
 - Terraform
 - Clean Architector (One way Dependency direction, Application-> Domain-> Infrastructure)
